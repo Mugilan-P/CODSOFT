@@ -1,0 +1,18 @@
+### post
+POST http://localhost:8080/api/register
+Content-Type: application/json
+
+{
+  
+  "firstName":"mugi",    
+  "lastName":"lan",    
+  "email":"test123@gmail.com",    
+  "password":"12345",    
+  "empJs":"employee"  
+}
+
+### getAll
+GET http://localhost:8080/api/getAll
+
+### getresume
+GET http://localhost:8080/api/files
